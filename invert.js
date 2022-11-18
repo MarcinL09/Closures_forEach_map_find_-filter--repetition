@@ -1,5 +1,5 @@
-function invert(array) {
-    return array.map(function(number){
+function invert(arrayOfNumbers) {
+    return arrayOfNumbers.map(function(number){
         return -number;
     });
 }

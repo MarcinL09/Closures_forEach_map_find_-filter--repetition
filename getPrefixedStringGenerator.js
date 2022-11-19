@@ -3,7 +3,7 @@
 
 function getPrefixedStringGenerator(prefix) {
     return function(string) {
-        return `${prefix}${string}`;
+        return prefix + string;
     }
 }
 
